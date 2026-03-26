@@ -1,0 +1,27 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Dependencies
+node_modules/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+.vite/
+.next/
+
+# Misc
+*.log
+.env
+.env.*

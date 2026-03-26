@@ -1,0 +1,5 @@
+/* App CSS handles no global styles anymore, moved to Modules */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

@@ -1,0 +1,170 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+.illustrationSection {
+    flex: 1;
+    display: none;
+    /* Hidden on mobile */
+    position: relative;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+    .illustrationSection {
+        display: flex;
+    }
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 10;
+}
+
+.logoWrapper {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem;
+    border-radius: 50%;
+    backdrop-filter: blur(4px);
+}
+
+.brandName {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+
+.illustrationContent {
+    position: relative;
+    z-index: 10;
+    max-width: 480px;
+}
+
+.heroIcon {
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.heroTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.heroSubtitle {
+    font-size: 1.125rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+/* Abstract shapes for visual interest */
+.illustrationSection::before {
+    content: '';
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    width: 60%;
+    height: 60%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.illustrationSection::after {
+    content: '';
+    position: absolute;
+    bottom: -10%;
+    left: -10%;
+    width: 50%;
+    height: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.formSection {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: var(--bg-color);
+}
+
+.formContainer {
+    width: 100%;
+    max-width: 420px;
+    background-color: var(--card-bg);
+    padding: 2.5rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    animation: fadeIn 0.6s ease-out;
+}
+
+.mobileBrand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+@media (min-width: 1024px) {
+    .mobileBrand {
+        display: none;
+    }
+}
+
+.brandNameMobile {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 640px) {
+    .formContainer {
+        box-shadow: none;
+        background: transparent;
+        padding: 1rem;
+    }
+}

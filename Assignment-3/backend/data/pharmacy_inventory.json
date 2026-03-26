@@ -1,0 +1,302 @@
+[
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Tetrabenazine 25 mg",
+        "quantity": 11,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Caffeine 20 mg",
+        "quantity": 93,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Cerebroprotein Hydrolysate 30 mg",
+        "quantity": 14,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Cerebroprotein Hydrolysate 60 mg",
+        "quantity": 93,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Cerebroprotein Hydrolysate 90 mg",
+        "quantity": 61,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Tretinoin 0.025 %",
+        "quantity": 87,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Tretinoin 0.05 %",
+        "quantity": 24,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Tretinoin 0.1 %",
+        "quantity": 61,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Adapalene 0.1 %+Benzoyl Peroxide 2.5 %",
+        "quantity": 77,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Clindamycin 1 %+Niacinamide 4 %",
+        "quantity": 66,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Azelaic Acid+Glycerin+Mandelic Acid+Purified Water+Salicylic Acid",
+        "quantity": 73,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Clarithromycin 1 %",
+        "quantity": 87,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Dapsone 5 %",
+        "quantity": 15,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Adapalene 0.1 %+Dapsone 5 %",
+        "quantity": 21,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Licorice+Niacinamide+Salicylic Acid+Zinc",
+        "quantity": 88,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Aloe Vera 0.2 %+Lipase 450 FIP+Tea Tree Oil 0.002+Zinc 0.001",
+        "quantity": 92,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Aqua+Decyl Glucoside+Hyaluronic Acid+Salicylic Acid+Tea Tree Oil",
+        "quantity": 100,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Aqua+Caprylic Capric Triglycerides+Cetyl Alcohol+Cyclopentasiloxane+Jojoba Oil",
+        "quantity": 52,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Glycolic Acid 1 %+Salicylic Acid 2 %",
+        "quantity": 85,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Allantoin 3 %+Aloe Vera 0.01+Tetrahydropiperine 0.05 %",
+        "quantity": 61,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Skin Care",
+        "quantity": 90,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "ALOE VERA+DIMETHICONE+GLYCERIN+KOJIC ACID+Silicone",
+        "quantity": 12,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Clindamycin 1 %",
+        "quantity": 48,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Adapalene 0.1 %+Clindamycin 1 %",
+        "quantity": 15,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Clindamycin 1 %+Niacinamide 4 %",
+        "quantity": 38,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Isotretinoin 10 mg",
+        "quantity": 14,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Isotretinoin 20 mg",
+        "quantity": 73,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Allantoin+Aloe barbadensis Leaf Extract+Aqua+Propylene Glycol+Salicylic Acid",
+        "quantity": 45,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "GLYCERIN+ZINC OXIDE",
+        "quantity": 41,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Allantoin 0.2 %+Tea Tree Oil 0.25 %+Tocopherol 0.25 %",
+        "quantity": 83,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Calamine 6 %+Glycerin 0.04 %+Zinc 4 %",
+        "quantity": 16,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Adapalene 1 mg+Clindamycin 10 mg+Zinc Acetate 12 mg",
+        "quantity": 87,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Allantoin 15 gm+Clindamycin 1 %+Cocoa Butter",
+        "quantity": 65,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Clindamycin 1 %+Niacinamide 0.5 %",
+        "quantity": 20,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Isotretinoin 30 mg",
+        "quantity": 24,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Aloe Vera Extract+Ascorbic Acid+Glycerin+Salicylic Acid+Tocopherol Acetate",
+        "quantity": 53,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Isotretinoin 5 mg",
+        "quantity": 68,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Adapalene 0.1 %",
+        "quantity": 12,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Azelaic Acid 2.5 %+Wheat Germ Oil 0.5 %",
+        "quantity": 84,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "GLUTAMINE+Glycerin+LACTIC ACID+Sodium Lauryl Ether Sulphate+Triclosan",
+        "quantity": 78,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Azelaic Acid 10 %",
+        "quantity": 44,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "Noble Medicals",
+        "generic_name": "Azelaic Acid 15 %",
+        "quantity": 56,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Azelaic Acid 20 %",
+        "quantity": 34,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Aloe Vera Extract+Aqua+Salicylic Acid+Sodium Lauryl Ether Sulphate+Tea Tree Oil",
+        "quantity": 22,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "Apollo Pharmacy",
+        "generic_name": "Allantoin+Tea Tree Oil+Tocopherol+Triclosan+Zinc Oxide",
+        "quantity": 62,
+        "location": "Pune-Hinjewadi"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Aloe barbadensis Leaf Extract+Glycerin+Olive Oil+Salicylic Acid+Tea Tree Oil+Triclosan",
+        "quantity": 46,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "MedPlus",
+        "generic_name": "Benzoyl Peroxide 2.5 %",
+        "quantity": 84,
+        "location": "Pune-Camp"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Benzoyl Peroxide 5 %",
+        "quantity": 18,
+        "location": "Pune-Kothrud"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Benzoyl Peroxide 2.5 %+Clindamycin 1 %",
+        "quantity": 61,
+        "location": "Pune-Baner"
+    },
+    {
+        "pharmacy_name": "Wellness Forever",
+        "generic_name": "Clindamycin 1 %+Tretinoin 0.025 %",
+        "quantity": 69,
+        "location": "Pune-Camp"
+    }
+]

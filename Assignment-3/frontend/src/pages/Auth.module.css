@@ -1,0 +1,71 @@
+.footer {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.footer a {
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: color 0.2s;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: var(--primary-hover);
+}
+
+.errorMessage {
+    color: var(--error-color);
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    text-align: center;
+    background-color: rgba(239, 68, 68, 0.1);
+    padding: 0.75rem;
+    border-radius: var(--radius);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.optionsRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+
+.checkbox {
+    accent-color: var(--primary-color);
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.forgotPassword {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.trustNote {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    background-color: #ecfdf5;
+    /* Emerald-50 */
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius);
+    color: var(--accent-color);
+    font-weight: 500;
+}

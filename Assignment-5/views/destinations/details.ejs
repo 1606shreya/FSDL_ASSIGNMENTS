@@ -1,0 +1,64 @@
+<%- include('../layout/header') %>
+
+<div class="details-header">
+    <img src="<%= destination.image %>" alt="<%= destination.name %>">
+</div>
+
+<section class="container details-content">
+    <div class="details-card">
+        <div class="details-text">
+            <h1><%= destination.name %></h1>
+            <div class="details-meta">
+                <span class="meta-item"><%= destination.category %></span>
+                <span class="meta-item"><%= destination.duration %></span>
+            </div>
+            <p><%= destination.description %></p>
+            <br>
+            <h3>What's Included?</h3>
+            <ul style="margin: 20px 0; color: var(--text-light); padding-left: 20px;">
+                <li>Accommodation in 5-star hotels</li>
+                <li>Breakfast and Dinner included</li>
+                <li>Local transportation and airport transfers</li>
+                <li>Professional guided tours</li>
+            </ul>
+        </div>
+
+        <div class="booking-form">
+            <h3>Book This Trip</h3>
+            <div class="price" style="margin-bottom: 25px;">$<%= destination.price %> <span>/per person</span></div>
+            
+            <form action="/bookings" method="POST">
+                <input type="hidden" name="destinationId" value="<%= destination._id %>">
+                
+                <div class="form-group">
+                    <label for="userName">Full Name</label>
+                    <input type="text" id="userName" name="userName" placeholder="John Doe" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+1 234 567 890" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="travelDate">Travel Date</label>
+                    <input type="date" id="travelDate" name="travelDate" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" name="guests" value="1" min="1" required>
+                </div>
+
+                <button type="submit" class="btn-primary btn-block">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<%- include('../layout/footer') %>

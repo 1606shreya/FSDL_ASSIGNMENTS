@@ -1,0 +1,22 @@
+<%- include('../layout/header') %>
+
+<section class="container" style="padding: 100px 20px; text-align: center;">
+    <div style="background: var(--white); padding: 60px; border-radius: 20px; box-shadow: var(--shadow); max-width: 600px; margin: 0 auto;">
+        <div style="font-size: 64px; margin-bottom: 20px;">🎉</div>
+        <h1 style="margin-bottom: 20px;">Booking Confirmed!</h1>
+        <p style="color: var(--text-light); margin-bottom: 30px;">
+            Thank you, <strong><%= booking.userName %></strong>. Your trip has been successfully booked. 
+            A confirmation email has been sent to <strong><%= booking.email %></strong>.
+        </p>
+        
+        <div style="background: #f8fafc; padding: 20px; border-radius: 12px; margin-bottom: 40px; text-align: left;">
+            <p><strong>Booking ID:</strong> <%= booking._id %></p>
+            <p><strong>Travel Date:</strong> <%= booking.travelDate.toDateString() %></p>
+            <p><strong>Guests:</strong> <%= booking.guests %></p>
+        </div>
+
+        <a href="/" class="btn-primary">Back to Home</a>
+    </div>
+</section>
+
+<%- include('../layout/footer') %>

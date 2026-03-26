@@ -1,0 +1,55 @@
+<%- include('layout/header') %>
+
+<section class="hero">
+    <div class="hero-content container">
+        <h1>Discover Your Next Adventure</h1>
+        <p>Premium travel experiences curated just for you. From tropical paradises to mountain escapes.</p>
+        <a href="/destinations" class="btn-primary">Explore All Packages</a>
+    </div>
+</section>
+
+<section class="featured container">
+    <div class="section-title">
+        <h2>Featured Destinations</h2>
+        <p>Our most popular and highly-rated travel packages</p>
+    </div>
+
+    <div class="grid">
+        <% featured.forEach(dest => { %>
+            <div class="card">
+                <img src="<%= dest.image %>" alt="<%= dest.name %>" class="card-img">
+                <div class="card-content">
+                    <span class="card-category"><%= dest.category %></span>
+                    <h3 class="card-title"><%= dest.name %></h3>
+                    <div class="card-info">
+                        <span><%= dest.duration %></span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="price">$<%= dest.price %><span>/person</span></div>
+                        <a href="/destinations/<%= dest._id %>" class="btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+</section>
+
+<section class="about container" id="about" style="padding: 100px 0;">
+    <div class="grid" style="align-items: center;">
+        <div>
+            <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=80" alt="About Us" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+        </div>
+        <div>
+            <h2>Why Choose Wanderlust?</h2>
+            <br>
+            <p style="color: var(--text-light); margin-bottom: 20px;">We believe travel should be an extraordinary experience. That's why we hand-pick every destination and curate the finest itineraries to ensure your trip is nothing short of majestic.</p>
+            <ul style="list-style: none;">
+                <li style="margin-bottom: 10px;">✅ 24/7 Premium Support</li>
+                <li style="margin-bottom: 10px;">✅ Hand-picked Accommodations</li>
+                <li style="margin-bottom: 10px;">✅ Expert Local Guides</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<%- include('layout/footer') %>

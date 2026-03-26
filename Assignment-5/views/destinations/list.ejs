@@ -1,0 +1,29 @@
+<%- include('../layout/header') %>
+
+<section class="container" style="padding: 80px 20px;">
+    <div class="section-title">
+        <h1>All Travel Packages</h1>
+        <p>Explore our full collection of world-class destinations</p>
+    </div>
+
+    <div class="grid">
+        <% destinations.forEach(dest => { %>
+            <div class="card">
+                <img src="<%= dest.image %>" alt="<%= dest.name %>" class="card-img">
+                <div class="card-content">
+                    <span class="card-category"><%= dest.category %></span>
+                    <h3 class="card-title"><%= dest.name %></h3>
+                    <div class="card-info">
+                        <span><%= dest.duration %></span>
+                    </div>
+                    <div class="card-footer">
+                        <div class="price">$<%= dest.price %><span>/person</span></div>
+                        <a href="/destinations/<%= dest._id %>" class="btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+</section>
+
+<%- include('../layout/footer') %>
